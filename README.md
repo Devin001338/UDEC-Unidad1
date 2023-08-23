@@ -1,6 +1,6 @@
-# UDEC-Unidad1
-## Solucion a los ejercicios de la actividad de aprendizaje de la unidad 1
-
+# UDEC- FUNDAMENTOS DE LA PROGRAMACIÓN
+## Unidad 1 
+ 
 <p align="center"><strong> EJERCIOS DE LA ACTIVIDAD DE APRENDIZAJE </strong></p>
 
 
