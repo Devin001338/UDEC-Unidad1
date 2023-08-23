@@ -21,6 +21,8 @@ public class CalculoSalario{
 	System.out.println("El salario total del empleado es: $" + salarioTotal); 
 	System.out.println("El valor de la retencion en la fuente (5%) del empleado es: $" + retencionFuente);
 	System.out.println("El salario neto del empleado es: $" + salarioNeto);
+
+    scanner.close();
 	
 	}
 }
