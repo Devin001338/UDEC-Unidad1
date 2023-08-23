@@ -27,3 +27,4 @@ ser igual o mayor a 3.0.
 [Solucion del ejercicio](CalculoNotaTercerCorte.java)
 
 4. Calcular el área de un triángulo, sabiendo la base y la altura.
+[Solucion del ejercicio](CalculoAreaTriangulo.java)
