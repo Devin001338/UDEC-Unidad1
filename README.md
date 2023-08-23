@@ -203,53 +203,250 @@ public class PorcentajeDescuento {
 10. Un programa que reciba por teclado el precio de un artículo y calcule cual es
 el valor pagado por el iva de ese artículo.
 
-    [Solucion del ejercicio](IvaArticulo.java)
+```java
+import java.util.Scanner;
+
+public class IvaArticulo {
+    public static void main(String[] args) {
+        Scanner scanner =  new Scanner(System.in);
+
+        System.out.println("Ingrese el valor del articulo: ");
+        double precioArticulo = scanner.nextDouble();
+
+        double iva = precioArticulo * 0.19;
+        double precioArticuloIVA = iva + precioArticulo;
+
+        System.out.println("El valor del IVA es: " + iva);
+        System.out.println("El valor pagado con el IVA es: " + precioArticuloIVA);
+
+        scanner.close();
+    }
+}
+
+  ```
 
 11. Un programa que pida por teclado dos números enteros y muestre su suma,
 resta, multiplicación, división y el resto (módulo) de la división.
 
-    [Solucion del ejercicio](OperacionesBasicas.java)
+```java
+import java.util.Scanner;
+
+public class IvaArticulo {
+    public static void main(String[] args) {
+        Scanner scanner =  new Scanner(System.in);
+
+        System.out.println("Ingrese el valor del articulo: ");
+        double precioArticulo = scanner.nextDouble();
+
+        double iva = precioArticulo * 0.19;
+        double precioArticuloIVA = iva + precioArticulo;
+
+        System.out.println("El valor del IVA es: " + iva);
+        System.out.println("El valor pagado con el IVA es: " + precioArticuloIVA);
+
+        scanner.close();
+    }
+}
+
+  ``` 
 
 12. Un programa que obtiene la última cifra de un número introducido.
   
-    [Solucion del ejercicio](UltimaCifraNumero.java)
+```java
+import java.util.Scanner;
+
+public class UltimaCifraNumero {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingrese un número entero: ");
+        int numero = scanner.nextInt();
+
+        // Obtener la última cifra
+        int ultimaCifra = numero % 10;
+
+        System.out.println("La última cifra del número es: " + ultimaCifra);
+
+        scanner.close();
+    }
+}
+
+  ```
 
 13. Un programa que tras introducir una medida expresada en centímetros la
 convierta en pulgadas (1 pulgada = 2,54 centímetros)
 
-    [Solucion del ejercicio](CentimetrosAPulgadas.java)
+```java
+import java.util.Scanner;
+
+public class CentimetrosAPulgadas {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingrese la medida en centimetros a convertir: ");
+        double medidaCentimetros = scanner.nextDouble();
+
+        double medidaPulgadas = medidaCentimetros / 2.54;
+        System.out.println("La medida convertida a Pulgadas es: " + medidaPulgadas);
+        scanner.close();
+    }
+}
+
+  ```
 
 14. Un programa que exprese en horas, minutos y segundos un tiempo
 expresado en segundos.
 
-    [Solucion del ejercicio](ConversorTiempo.java)
+```java
+import java.util.Scanner;
+
+public class ConversorTiempo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingrese los segundos a convertir: ");
+        int segundos = scanner.nextInt();
+
+        int minutos = segundos / 60;
+        int horas = minutos / 12; 
+        int segundosRestantes = segundos % 60;
+
+        System.out.println("El tiempo es: " + horas + " horas, " + minutos + " minutos y " + segundosRestantes + " segundos");
+
+        scanner.close();
+ 
+    }
+} 
+  ```
 
 15. Se desea saber cuál es el valor total para pagar de un artículo, sabiendo su
 valor por unidad y la cantidad de artículos a llevar. Desarrollar un programa
 que, dado el valor de unidad de un artículo y la cantidad de artículos, calcule
 el valor total y lo imprima.
 
-    [Solucion del ejercicio](ValorArticulo.java)
+```java
+import java.util.Scanner;
+
+public class ValorArticulo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingrese el valor de la unidad del artículo: ");
+        double valorPorUnidad = scanner.nextDouble();
+
+        System.out.println("Ingrese la cantidad de artículos: ");
+        int cantidadArticulos = scanner.nextInt();
+
+        double valorTotal = valorPorUnidad * cantidadArticulos;
+
+        System.out.println("El valor total a pagar es por los articulos es: " + valorTotal);
+
+        scanner.close();
+    }
+}
+
+  ```
 
 16. Desarrollar un algoritmo que dado el radio de un círculo calcule e imprima el
 área.
+```java
+import java.util.Scanner;
 
-    [Solucion del ejercicio](CalculadoraAreaCirculo.java)
+public class CalculadoraAreaCirculo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Ingrese el radio del círculo: ");
+        double radio = scanner.nextDouble();
+
+        double area = Math.PI * Math.pow(radio, 2);
+
+        System.out.println("El área del círculo es: " + area);
+
+        scanner.close();
+    }
+}
+  ``` 
 17. Desarrollar un algoritmo que calcule e imprima el perímetro y el área de un
 rectángulo dada la longitud de dos de sus lados.
 P = 2· a + 2· b
 A= a · b
 
-    [Solucion del ejercicio](CalculadoraRectangulo.java)
+```java
+import java.util.Scanner;
+
+public class CalculadoraAreaCirculo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingrese el radio del círculo: ");
+        double radio = scanner.nextDouble();
+
+        double area = Math.PI * Math.pow(radio, 2);
+
+        System.out.println("El área del círculo es: " + area);
+
+        scanner.close();
+    }
+}
+
+  ``` 
 
 18. Desarrollar un algoritmo que calcule e imprima el perímetro y el área de un
 cuadrado dado uno de sus lados
 P = 4 · a
 A= a2
 
-    [Solucion del ejercicio](PerimetroYAreaCuadrado.java)
+```java
+import java.util.Scanner;
+
+public class PerimetroYAreaCuadrado {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingrese la longitud de un lado del cuadrado: ");
+        double lado = scanner.nextDouble();
+
+         
+        double perimetro = 4 * lado;
+        double area = Math.pow(lado, 2);
+
+         
+        System.out.println("El perímetro del cuadrado es: " + perimetro);
+        System.out.println("El área del cuadrado es: " + area);
+
+        scanner.close();
+    }
+}
+
+  ```
 
 19. Desarrollar un algoritmo que, dado el valor de x, y, z calcule e imprima el
 valor de A según la siguiente formula
 A=2x2 y3 z
+
+```java
+import java.util.Scanner;
+
+public class CalculoA {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese el valor de x: ");
+        double x = scanner.nextDouble();
+
+        System.out.print("Ingrese el valor de y: ");
+        double y = scanner.nextDouble();
+
+        System.out.print("Ingrese el valor de z: ");
+        double z = scanner.nextDouble();
+
+        double A = 2 * Math.pow(x, 2) * Math.pow(y, 3) * z;
+
+        System.out.println("El valor de A es: " + A);
+
+        scanner.close();
+    }
+}
+
+  ```
