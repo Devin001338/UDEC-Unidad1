@@ -25,3 +25,5 @@ que permita saber que nota se debe sacar como mínimo en el 60% si conozco
 los primeros 20%. Tener en cuenta que para superar una asignatura debe
 ser igual o mayor a 3.0. 
 [Solucion del ejercicio](CalculoNotaTercerCorte.java)
+
+4. Calcular el área de un triángulo, sabiendo la base y la altura.
