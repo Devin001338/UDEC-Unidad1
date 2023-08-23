@@ -32,9 +32,17 @@ ser igual o mayor a 3.0.
     [Solucion del ejercicio](CalculoAreaTriangulo.java)
 
 5. Calcular el perímetro de un triángulo sabiendo los tres lados.
+
     [Solucion del ejercicio](CalculoPerimetro.java)
 
 6. Convertir en grados Farengie el valor ingresado por teclado en grados Celcio
-    [Solucion del ejercicio](ConversionFahrenheitCelsius.java)
+
+    [Solucion del ejercicio](ConversorCelsiusFahrenheit.java)
 
 7. Convertir en grados Celcios el valor ingresado por teclado en grados Farengei    
+
+    [Solucion del ejercicio](ConversorFahrenheitCelsius.java)
+
+8. Un programa que lea el valor correspondiente a una distancia en millas
+marinas y las escribas expresadas en metros. Sabiendo que 1 milla marina
+equivale a 1852 metros.    
