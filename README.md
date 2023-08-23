@@ -47,3 +47,6 @@ ser igual o mayor a 3.0.
 marinas y las escribas expresadas en metros. Sabiendo que 1 milla marina
 equivale a 1852 metros.    
 
+    [Solucion del ejercicio](PorcentajeDescuento.java)
+
+    
