@@ -10,4 +10,10 @@ imprimir el salario total, salario neto y el 5% del salario total como retenció
 en la fuente, ingresando por teclado el valor de la hora y el número de horas
 trabajadas. 
 
-[Solucion del ejercicio](CalculoSalario.java) 
+[Solucion del ejercicio](CalculoSalario.java)
+
+2. Un empleado gana en su salario total mensual $1.056.028, si trabajo un total
+de 36 horas, calcular una solución algorítmica que permita imprimir cual es
+el valor de una hora trabajada.
+
+[Solucion del ejercicio](CalculoValorHora.java)
