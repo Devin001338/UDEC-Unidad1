@@ -5,6 +5,6 @@ public class CalculoPerimetro {
         double ladoC = 60.4;
 
         double perimetro = ladoA + ladoB + ladoC;
-        System.out.println("El perímetro del triángulo es: " + perimetro)    
+        System.out.println("El perímetro del triángulo es: " + perimetro);    
     }
 }

@@ -32,4 +32,9 @@ ser igual o mayor a 3.0.
     [Solucion del ejercicio](CalculoAreaTriangulo.java)
 
 5. Calcular el perímetro de un triángulo sabiendo los tres lados.
+    [Solucion del ejercicio](CalculoPerimetro.java)
 
+6. Convertir en grados Farengie el valor ingresado por teclado en grados Celcio
+    [Solucion del ejercicio](ConversionFahrenheitCelsius.java)
+
+7. Convertir en grados Celcios el valor ingresado por teclado en grados Farengei    
