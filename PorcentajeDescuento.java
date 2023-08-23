@@ -13,5 +13,6 @@ public class PorcentajeDescuento {
         double descuento = precioPagado - precioTarifa;
         double porcentajeDescuento = descuento / precioTarifa;
         System.out.println("El procentaje de descuento sobre el precio pagado es: " + porcentajeDescuento);
+        scanner.close();
     }
 }
